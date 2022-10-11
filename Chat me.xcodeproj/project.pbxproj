@@ -21,6 +21,18 @@
 		00B3ECD828F58239000D7382 /* CellForPeopleAndGroups.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B3ECD628F58239000D7382 /* CellForPeopleAndGroups.xib */; };
 		00B3ECDB28F5B664000D7382 /* PeopleVC+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECDA28F5B664000D7382 /* PeopleVC+.swift */; };
 		00B3ECDD28F5B70E000D7382 /* ScreenSaverVC+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECDC28F5B70E000D7382 /* ScreenSaverVC+.swift */; };
+		00B3ECDF28F5D1C9000D7382 /* PeopleFromJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECDE28F5D1C9000D7382 /* PeopleFromJson.swift */; };
+		00B3ECE328F5D243000D7382 /* JSONInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECE228F5D243000D7382 /* JSONInfo.swift */; };
+		00B3ECE528F5D297000D7382 /* ResponsePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECE428F5D297000D7382 /* ResponsePeople.swift */; };
+		00B3ECE728F5D3AF000D7382 /* PeopleRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECE628F5D3AF000D7382 /* PeopleRealm.swift */; };
+		00B3ECEA28F5D4FA000D7382 /* PeoplePostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECE928F5D4FA000D7382 /* PeoplePostViewModel.swift */; };
+		00B3ECEF28F5D601000D7382 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECEE28F5D601000D7382 /* NetworkController.swift */; };
+		00B3ECF128F5D61D000D7382 /* NetworkerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECF028F5D61D000D7382 /* NetworkerProtocol.swift */; };
+		00B3ECF428F5D65C000D7382 /* RealmStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECF328F5D65C000D7382 /* RealmStorage.swift */; };
+		00B3ECF628F5D687000D7382 /* RealmStorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECF528F5D687000D7382 /* RealmStorageProtocol.swift */; };
+		00B3ECF928F5D6D0000D7382 /* PeopleGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECF828F5D6D0000D7382 /* PeopleGateway.swift */; };
+		00B3ECFC28F5DD05000D7382 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECFB28F5DD05000D7382 /* UIImageView+.swift */; };
+		B86FF9EFB2430FDF8B85A892 /* Pods_Chat_me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446755BA6A9AABA2BE9FE50E /* Pods_Chat_me.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +52,20 @@
 		00B3ECD628F58239000D7382 /* CellForPeopleAndGroups.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellForPeopleAndGroups.xib; sourceTree = "<group>"; };
 		00B3ECDA28F5B664000D7382 /* PeopleVC+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PeopleVC+.swift"; sourceTree = "<group>"; };
 		00B3ECDC28F5B70E000D7382 /* ScreenSaverVC+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScreenSaverVC+.swift"; sourceTree = "<group>"; };
+		00B3ECDE28F5D1C9000D7382 /* PeopleFromJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleFromJson.swift; sourceTree = "<group>"; };
+		00B3ECE228F5D243000D7382 /* JSONInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONInfo.swift; sourceTree = "<group>"; };
+		00B3ECE428F5D297000D7382 /* ResponsePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsePeople.swift; sourceTree = "<group>"; };
+		00B3ECE628F5D3AF000D7382 /* PeopleRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRealm.swift; sourceTree = "<group>"; };
+		00B3ECE928F5D4FA000D7382 /* PeoplePostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeoplePostViewModel.swift; sourceTree = "<group>"; };
+		00B3ECEE28F5D601000D7382 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		00B3ECF028F5D61D000D7382 /* NetworkerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkerProtocol.swift; sourceTree = "<group>"; };
+		00B3ECF328F5D65C000D7382 /* RealmStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmStorage.swift; sourceTree = "<group>"; };
+		00B3ECF528F5D687000D7382 /* RealmStorageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmStorageProtocol.swift; sourceTree = "<group>"; };
+		00B3ECF828F5D6D0000D7382 /* PeopleGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleGateway.swift; sourceTree = "<group>"; };
+		00B3ECFB28F5DD05000D7382 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		446755BA6A9AABA2BE9FE50E /* Pods_Chat_me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B5BF2845D3F0A8C8F05082 /* Pods-Chat me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat me.debug.xcconfig"; path = "Target Support Files/Pods-Chat me/Pods-Chat me.debug.xcconfig"; sourceTree = "<group>"; };
+		54BDA084919E6401A5AFC250 /* Pods-Chat me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat me.release.xcconfig"; path = "Target Support Files/Pods-Chat me/Pods-Chat me.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86FF9EFB2430FDF8B85A892 /* Pods_Chat_me.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +85,8 @@
 			children = (
 				00B3ECB628EDC29A000D7382 /* Chat me */,
 				00B3ECB528EDC29A000D7382 /* Products */,
+				F384A50642474967E0A4A098 /* Pods */,
+				B8784468885D7308042FD4BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,7 +105,9 @@
 				00B3ECB928EDC29A000D7382 /* SceneDelegate.swift */,
 				00B3ECCB28EDC34A000D7382 /* Screen */,
 				00B3ECD928F58240000D7382 /* Cell */,
+				00B3ECEC28F5D5A9000D7382 /* WorkingWithData */,
 				00B3ECCE28EDC6E2000D7382 /* Singleton */,
+				00B3ECFA28F5DCE6000D7382 /* UIImageView */,
 				00B3ECBD28EDC29A000D7382 /* Main.storyboard */,
 				00B3ECC028EDC29B000D7382 /* Assets.xcassets */,
 				00B3ECC228EDC29B000D7382 /* LaunchScreen.storyboard */,
@@ -115,6 +146,104 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		00B3ECE028F5D1CF000D7382 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				00B3ECE228F5D243000D7382 /* JSONInfo.swift */,
+				00B3ECE128F5D20A000D7382 /* People */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		00B3ECE128F5D20A000D7382 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				00B3ECE428F5D297000D7382 /* ResponsePeople.swift */,
+				00B3ECDE28F5D1C9000D7382 /* PeopleFromJson.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		00B3ECE828F5D3B3000D7382 /* RealmData */ = {
+			isa = PBXGroup;
+			children = (
+				00B3ECE628F5D3AF000D7382 /* PeopleRealm.swift */,
+			);
+			path = RealmData;
+			sourceTree = "<group>";
+		};
+		00B3ECEB28F5D533000D7382 /* PostViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				00B3ECE928F5D4FA000D7382 /* PeoplePostViewModel.swift */,
+			);
+			path = PostViewModel;
+			sourceTree = "<group>";
+		};
+		00B3ECEC28F5D5A9000D7382 /* WorkingWithData */ = {
+			isa = PBXGroup;
+			children = (
+				00B3ECF728F5D6AB000D7382 /* Gateway */,
+				00B3ECF228F5D649000D7382 /* DataStorage */,
+				00B3ECED28F5D5E2000D7382 /* Network */,
+				00B3ECE028F5D1CF000D7382 /* JSON */,
+				00B3ECE828F5D3B3000D7382 /* RealmData */,
+				00B3ECEB28F5D533000D7382 /* PostViewModel */,
+			);
+			path = WorkingWithData;
+			sourceTree = "<group>";
+		};
+		00B3ECED28F5D5E2000D7382 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				00B3ECEE28F5D601000D7382 /* NetworkController.swift */,
+				00B3ECF028F5D61D000D7382 /* NetworkerProtocol.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		00B3ECF228F5D649000D7382 /* DataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				00B3ECF328F5D65C000D7382 /* RealmStorage.swift */,
+				00B3ECF528F5D687000D7382 /* RealmStorageProtocol.swift */,
+			);
+			path = DataStorage;
+			sourceTree = "<group>";
+		};
+		00B3ECF728F5D6AB000D7382 /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				00B3ECF828F5D6D0000D7382 /* PeopleGateway.swift */,
+			);
+			path = Gateway;
+			sourceTree = "<group>";
+		};
+		00B3ECFA28F5DCE6000D7382 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				00B3ECFB28F5DD05000D7382 /* UIImageView+.swift */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		B8784468885D7308042FD4BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				446755BA6A9AABA2BE9FE50E /* Pods_Chat_me.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F384A50642474967E0A4A098 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53B5BF2845D3F0A8C8F05082 /* Pods-Chat me.debug.xcconfig */,
+				54BDA084919E6401A5AFC250 /* Pods-Chat me.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00B3ECC828EDC29B000D7382 /* Build configuration list for PBXNativeTarget "Chat me" */;
 			buildPhases = (
+				35BAEE2999A5C9D43AA62D73 /* [CP] Check Pods Manifest.lock */,
 				00B3ECB028EDC29A000D7382 /* Sources */,
 				00B3ECB128EDC29A000D7382 /* Frameworks */,
 				00B3ECB228EDC29A000D7382 /* Resources */,
+				5E3F38997C799277FEF24BBD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,20 +313,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35BAEE2999A5C9D43AA62D73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chat me-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E3F38997C799277FEF24BBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chat me/Pods-Chat me-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chat me/Pods-Chat me-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chat me/Pods-Chat me-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00B3ECB028EDC29A000D7382 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B3ECEF28F5D601000D7382 /* NetworkController.swift in Sources */,
+				00B3ECF928F5D6D0000D7382 /* PeopleGateway.swift in Sources */,
+				00B3ECE728F5D3AF000D7382 /* PeopleRealm.swift in Sources */,
 				00B3ECCD28EDC6DB000D7382 /* Session.swift in Sources */,
+				00B3ECE528F5D297000D7382 /* ResponsePeople.swift in Sources */,
 				00B3ECD428F5626D000D7382 /* PeopleViewController.swift in Sources */,
 				00B3ECD028EDCA9B000D7382 /* ScreenSaverViewController.swift in Sources */,
+				00B3ECE328F5D243000D7382 /* JSONInfo.swift in Sources */,
+				00B3ECEA28F5D4FA000D7382 /* PeoplePostViewModel.swift in Sources */,
+				00B3ECFC28F5DD05000D7382 /* UIImageView+.swift in Sources */,
+				00B3ECF628F5D687000D7382 /* RealmStorageProtocol.swift in Sources */,
 				00B3ECDB28F5B664000D7382 /* PeopleVC+.swift in Sources */,
 				00B3ECDD28F5B70E000D7382 /* ScreenSaverVC+.swift in Sources */,
 				00B3ECBC28EDC29A000D7382 /* Login.swift in Sources */,
+				00B3ECF428F5D65C000D7382 /* RealmStorage.swift in Sources */,
+				00B3ECDF28F5D1C9000D7382 /* PeopleFromJson.swift in Sources */,
 				00B3ECD228F04D00000D7382 /* TabBarController.swift in Sources */,
 				00B3ECB828EDC29A000D7382 /* AppDelegate.swift in Sources */,
 				00B3ECD728F58239000D7382 /* CellForPeopleAndGroups.swift in Sources */,
+				00B3ECF128F5D61D000D7382 /* NetworkerProtocol.swift in Sources */,
 				00B3ECBA28EDC29A000D7382 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +522,7 @@
 		};
 		00B3ECC928EDC29B000D7382 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B5BF2845D3F0A8C8F05082 /* Pods-Chat me.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -366,6 +551,7 @@
 		};
 		00B3ECCA28EDC29B000D7382 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54BDA084919E6401A5AFC250 /* Pods-Chat me.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
