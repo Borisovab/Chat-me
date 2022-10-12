@@ -37,15 +37,11 @@ class CellForPeopleAndGroups: UITableViewCell {
         setupAvatar()
         setupName()
         setupDescription()
-//        setupCornerRadius()
+        //        self.avatar.contentMode = .scaleAspectFit
+        //        self.avatar.clipsToBounds = true
+        //        self.avatar.layer.cornerRadius = (self.avatar.frame.size.height) / 2
 
     }
-
-//    func setupCornerRadius() {
-//        self.avatar.contentMode = .scaleAspectFit
-//        self.avatar.clipsToBounds = true
-//        self.avatar.layer.cornerRadius = (self.avatar.frame.size.height) / 2
-//    }
     
     func setupAvatar() {
         contentView.addSubview(avatar)

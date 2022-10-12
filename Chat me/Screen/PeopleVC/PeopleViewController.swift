@@ -19,8 +19,8 @@ class PeopleViewController: UIViewController {
     var peopleViewPosts = [PeoplePostViewModel]()
     var peopleFromRealm = [PeopleRealm]()
 
-    private var realmNotification: NotificationToken?
-    private var firstPeopleName: NotificationToken?
+    var realmNotification: NotificationToken?
+    var firstPeopleName: NotificationToken?
 
     let avatar: UIImageView = {
         let image = UIImageView()
@@ -50,6 +50,7 @@ class PeopleViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTabelView()
+        setupBarItem()
 
         gateWay.loadPosts { [weak self] post in
             guard let self = self else { return }
@@ -71,46 +72,6 @@ class PeopleViewController: UIViewController {
                 }
             })
     }
-
-    func setupCornerRadius() {
-        self.avatar.contentMode = .scaleAspectFit
-        self.avatar.clipsToBounds = true
-        self.avatar.layer.cornerRadius = (self.avatar.frame.size.height) / 2
-    }
-
-    func setupTabelView() {
-        let width = self.view.bounds.width
-        let height = self.view.bounds.height
-        peopleTableView.frame = CGRect(x: 0, y: 0, width: width, height: height)
-        self.view.addSubview(peopleTableView)
-        peopleTableView.dataSource = self
-        peopleTableView.delegate = self
-
-        peopleTableView.register(UINib(nibName: nibNameForCell, bundle: nil), forCellReuseIdentifier: cellForPeopleAndGroupsReuseIdentifier)
-    }
-
-    private func makePeopleObserver(realm: Realm) {
-        let objs = realm.objects(PeopleRealm.self)
-
-        realmNotification = objs.observe({ changes in
-            switch changes {
-            case let .initial(objs):
-                DispatchQueue.main.async { [self] in
-                    self.peopleFromRealm = Array(objs)
-                    self.peopleTableView.reloadData()
-                }
-            case .error(let error): print(error)
-            case let .update(friends, deletions, insertions, modifications):
-
-                DispatchQueue.main.async { [self] in
-                    self.peopleFromRealm = Array(friends)
-
-                    peopleTableView.reloadData()
-                }
-            }
-        })
-    }
-
 }
 
 
@@ -124,7 +85,7 @@ extension PeopleViewController: UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: cellForPeopleAndGroupsReuseIdentifier, for: indexPath) as? CellForPeopleAndGroups
         else { return UITableViewCell() }
 
-        cell.backgroundColor = #colorLiteral(red: 0.8133922219, green: 1, blue: 0.9746926427, alpha: 1)
+        cell.backgroundColor = .white
 
         let namePeople = peopleViewPosts[indexPath.row].firstName
         let lastNamePeople = peopleViewPosts[indexPath.row].lastName
@@ -135,9 +96,9 @@ extension PeopleViewController: UITableViewDataSource {
         cell.imageView?.showImage(with: url)
         cell.configurePeopleAndGroupsCell(nameLabel: namePeople, description: lastNamePeople)
 
-//        cell.avatar.contentMode = .scaleAspectFit
-//        cell.avatar.clipsToBounds = true
-//        cell.avatar.layer.cornerRadius = (self.avatar.frame.size.height) / 2
+        //        cell.avatar.contentMode = .scaleAspectFit
+        //        cell.avatar.clipsToBounds = true
+        //        cell.avatar.layer.cornerRadius = (self.avatar.frame.size.height) / 2
 
         return cell
     }
