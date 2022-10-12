@@ -19,7 +19,7 @@
 		00B3ECD428F5626D000D7382 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECD328F5626D000D7382 /* PeopleViewController.swift */; };
 		00B3ECD728F58239000D7382 /* CellForPeopleAndGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECD528F58239000D7382 /* CellForPeopleAndGroups.swift */; };
 		00B3ECD828F58239000D7382 /* CellForPeopleAndGroups.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00B3ECD628F58239000D7382 /* CellForPeopleAndGroups.xib */; };
-		00B3ECDB28F5B664000D7382 /* PeopleVC+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECDA28F5B664000D7382 /* PeopleVC+.swift */; };
+		00B3ECDB28F5B664000D7382 /* PeopleVC+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECDA28F5B664000D7382 /* PeopleVC+Setup.swift */; };
 		00B3ECDD28F5B70E000D7382 /* ScreenSaverVC+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECDC28F5B70E000D7382 /* ScreenSaverVC+.swift */; };
 		00B3ECDF28F5D1C9000D7382 /* PeopleFromJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECDE28F5D1C9000D7382 /* PeopleFromJson.swift */; };
 		00B3ECE328F5D243000D7382 /* JSONInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECE228F5D243000D7382 /* JSONInfo.swift */; };
@@ -32,6 +32,16 @@
 		00B3ECF628F5D687000D7382 /* RealmStorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECF528F5D687000D7382 /* RealmStorageProtocol.swift */; };
 		00B3ECF928F5D6D0000D7382 /* PeopleGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECF828F5D6D0000D7382 /* PeopleGateway.swift */; };
 		00B3ECFC28F5DD05000D7382 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3ECFB28F5DD05000D7382 /* UIImageView+.swift */; };
+		00CF8B7628F6BED700C7FF88 /* PeopleVC+Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF8B7528F6BED700C7FF88 /* PeopleVC+Realm.swift */; };
+		00CF8B7928F6D5C200C7FF88 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF8B7828F6D5C200C7FF88 /* NewsViewController.swift */; };
+		00CF8B7F28F6D6A300C7FF88 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF8B7E28F6D6A300C7FF88 /* GroupsViewController.swift */; };
+		00CF8B8328F6D79900C7FF88 /* ResponseGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF8B8228F6D79900C7FF88 /* ResponseGroups.swift */; };
+		00CF8B8528F6D7DD00C7FF88 /* GroupsFromJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF8B8428F6D7DD00C7FF88 /* GroupsFromJson.swift */; };
+		00CF8B8728F6D82700C7FF88 /* GroupsRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF8B8628F6D82700C7FF88 /* GroupsRealm.swift */; };
+		00CF8B8928F6D89800C7FF88 /* GroupsPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF8B8828F6D89800C7FF88 /* GroupsPostViewModel.swift */; };
+		00CF8B8B28F6D8EB00C7FF88 /* GroupsGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF8B8A28F6D8EB00C7FF88 /* GroupsGateway.swift */; };
+		00CF8B8D28F6DD5600C7FF88 /* GroupsVC+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF8B8C28F6DD5600C7FF88 /* GroupsVC+Setup.swift */; };
+		00CF8B8F28F6DD6500C7FF88 /* GroupsVC+Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CF8B8E28F6DD6500C7FF88 /* GroupsVC+Realm.swift */; };
 		B86FF9EFB2430FDF8B85A892 /* Pods_Chat_me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446755BA6A9AABA2BE9FE50E /* Pods_Chat_me.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +60,7 @@
 		00B3ECD328F5626D000D7382 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		00B3ECD528F58239000D7382 /* CellForPeopleAndGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForPeopleAndGroups.swift; sourceTree = "<group>"; };
 		00B3ECD628F58239000D7382 /* CellForPeopleAndGroups.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellForPeopleAndGroups.xib; sourceTree = "<group>"; };
-		00B3ECDA28F5B664000D7382 /* PeopleVC+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PeopleVC+.swift"; sourceTree = "<group>"; };
+		00B3ECDA28F5B664000D7382 /* PeopleVC+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PeopleVC+Setup.swift"; sourceTree = "<group>"; };
 		00B3ECDC28F5B70E000D7382 /* ScreenSaverVC+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScreenSaverVC+.swift"; sourceTree = "<group>"; };
 		00B3ECDE28F5D1C9000D7382 /* PeopleFromJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleFromJson.swift; sourceTree = "<group>"; };
 		00B3ECE228F5D243000D7382 /* JSONInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONInfo.swift; sourceTree = "<group>"; };
@@ -63,6 +73,16 @@
 		00B3ECF528F5D687000D7382 /* RealmStorageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmStorageProtocol.swift; sourceTree = "<group>"; };
 		00B3ECF828F5D6D0000D7382 /* PeopleGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleGateway.swift; sourceTree = "<group>"; };
 		00B3ECFB28F5DD05000D7382 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		00CF8B7528F6BED700C7FF88 /* PeopleVC+Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PeopleVC+Realm.swift"; sourceTree = "<group>"; };
+		00CF8B7828F6D5C200C7FF88 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		00CF8B7E28F6D6A300C7FF88 /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		00CF8B8228F6D79900C7FF88 /* ResponseGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseGroups.swift; sourceTree = "<group>"; };
+		00CF8B8428F6D7DD00C7FF88 /* GroupsFromJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsFromJson.swift; sourceTree = "<group>"; };
+		00CF8B8628F6D82700C7FF88 /* GroupsRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsRealm.swift; sourceTree = "<group>"; };
+		00CF8B8828F6D89800C7FF88 /* GroupsPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsPostViewModel.swift; sourceTree = "<group>"; };
+		00CF8B8A28F6D8EB00C7FF88 /* GroupsGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsGateway.swift; sourceTree = "<group>"; };
+		00CF8B8C28F6DD5600C7FF88 /* GroupsVC+Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroupsVC+Setup.swift"; sourceTree = "<group>"; };
+		00CF8B8E28F6DD6500C7FF88 /* GroupsVC+Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GroupsVC+Realm.swift"; sourceTree = "<group>"; };
 		446755BA6A9AABA2BE9FE50E /* Pods_Chat_me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B5BF2845D3F0A8C8F05082 /* Pods-Chat me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat me.debug.xcconfig"; path = "Target Support Files/Pods-Chat me/Pods-Chat me.debug.xcconfig"; sourceTree = "<group>"; };
 		54BDA084919E6401A5AFC250 /* Pods-Chat me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat me.release.xcconfig"; path = "Target Support Files/Pods-Chat me/Pods-Chat me.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,12 +139,12 @@
 		00B3ECCB28EDC34A000D7382 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				00B3ECBB28EDC29A000D7382 /* Login.swift */,
-				00B3ECCF28EDCA9B000D7382 /* ScreenSaverViewController.swift */,
-				00B3ECDC28F5B70E000D7382 /* ScreenSaverVC+.swift */,
-				00B3ECD128F04D00000D7382 /* TabBarController.swift */,
-				00B3ECD328F5626D000D7382 /* PeopleViewController.swift */,
-				00B3ECDA28F5B664000D7382 /* PeopleVC+.swift */,
+				00CF8B7B28F6D5F200C7FF88 /* LoginVC */,
+				00CF8B7A28F6D5E400C7FF88 /* ScreenSaverVC */,
+				00CF8B7C28F6D5FE00C7FF88 /* TabBarVC */,
+				00CF8B7D28F6D61700C7FF88 /* NewsVC */,
+				00CF8B7728F6BF2F00C7FF88 /* PeopleVC */,
+				00CF8B8028F6D6B100C7FF88 /* GroupsVC */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -151,6 +171,7 @@
 			children = (
 				00B3ECE228F5D243000D7382 /* JSONInfo.swift */,
 				00B3ECE128F5D20A000D7382 /* People */,
+				00CF8B8128F6D77000C7FF88 /* Groups */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -168,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				00B3ECE628F5D3AF000D7382 /* PeopleRealm.swift */,
+				00CF8B8628F6D82700C7FF88 /* GroupsRealm.swift */,
 			);
 			path = RealmData;
 			sourceTree = "<group>";
@@ -176,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				00B3ECE928F5D4FA000D7382 /* PeoplePostViewModel.swift */,
+				00CF8B8828F6D89800C7FF88 /* GroupsPostViewModel.swift */,
 			);
 			path = PostViewModel;
 			sourceTree = "<group>";
@@ -215,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				00B3ECF828F5D6D0000D7382 /* PeopleGateway.swift */,
+				00CF8B8A28F6D8EB00C7FF88 /* GroupsGateway.swift */,
 			);
 			path = Gateway;
 			sourceTree = "<group>";
@@ -225,6 +249,68 @@
 				00B3ECFB28F5DD05000D7382 /* UIImageView+.swift */,
 			);
 			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		00CF8B7728F6BF2F00C7FF88 /* PeopleVC */ = {
+			isa = PBXGroup;
+			children = (
+				00B3ECD328F5626D000D7382 /* PeopleViewController.swift */,
+				00B3ECDA28F5B664000D7382 /* PeopleVC+Setup.swift */,
+				00CF8B7528F6BED700C7FF88 /* PeopleVC+Realm.swift */,
+			);
+			path = PeopleVC;
+			sourceTree = "<group>";
+		};
+		00CF8B7A28F6D5E400C7FF88 /* ScreenSaverVC */ = {
+			isa = PBXGroup;
+			children = (
+				00B3ECCF28EDCA9B000D7382 /* ScreenSaverViewController.swift */,
+				00B3ECDC28F5B70E000D7382 /* ScreenSaverVC+.swift */,
+			);
+			path = ScreenSaverVC;
+			sourceTree = "<group>";
+		};
+		00CF8B7B28F6D5F200C7FF88 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				00B3ECBB28EDC29A000D7382 /* Login.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		00CF8B7C28F6D5FE00C7FF88 /* TabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				00B3ECD128F04D00000D7382 /* TabBarController.swift */,
+			);
+			path = TabBarVC;
+			sourceTree = "<group>";
+		};
+		00CF8B7D28F6D61700C7FF88 /* NewsVC */ = {
+			isa = PBXGroup;
+			children = (
+				00CF8B7828F6D5C200C7FF88 /* NewsViewController.swift */,
+			);
+			path = NewsVC;
+			sourceTree = "<group>";
+		};
+		00CF8B8028F6D6B100C7FF88 /* GroupsVC */ = {
+			isa = PBXGroup;
+			children = (
+				00CF8B7E28F6D6A300C7FF88 /* GroupsViewController.swift */,
+				00CF8B8C28F6DD5600C7FF88 /* GroupsVC+Setup.swift */,
+				00CF8B8E28F6DD6500C7FF88 /* GroupsVC+Realm.swift */,
+			);
+			path = GroupsVC;
+			sourceTree = "<group>";
+		};
+		00CF8B8128F6D77000C7FF88 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				00CF8B8228F6D79900C7FF88 /* ResponseGroups.swift */,
+				00CF8B8428F6D7DD00C7FF88 /* GroupsFromJson.swift */,
+			);
+			path = Groups;
 			sourceTree = "<group>";
 		};
 		B8784468885D7308042FD4BA /* Frameworks */ = {
@@ -361,25 +447,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				00B3ECEF28F5D601000D7382 /* NetworkController.swift in Sources */,
+				00CF8B8528F6D7DD00C7FF88 /* GroupsFromJson.swift in Sources */,
 				00B3ECF928F5D6D0000D7382 /* PeopleGateway.swift in Sources */,
+				00CF8B7928F6D5C200C7FF88 /* NewsViewController.swift in Sources */,
 				00B3ECE728F5D3AF000D7382 /* PeopleRealm.swift in Sources */,
 				00B3ECCD28EDC6DB000D7382 /* Session.swift in Sources */,
+				00CF8B8928F6D89800C7FF88 /* GroupsPostViewModel.swift in Sources */,
 				00B3ECE528F5D297000D7382 /* ResponsePeople.swift in Sources */,
 				00B3ECD428F5626D000D7382 /* PeopleViewController.swift in Sources */,
 				00B3ECD028EDCA9B000D7382 /* ScreenSaverViewController.swift in Sources */,
 				00B3ECE328F5D243000D7382 /* JSONInfo.swift in Sources */,
 				00B3ECEA28F5D4FA000D7382 /* PeoplePostViewModel.swift in Sources */,
+				00CF8B8328F6D79900C7FF88 /* ResponseGroups.swift in Sources */,
 				00B3ECFC28F5DD05000D7382 /* UIImageView+.swift in Sources */,
 				00B3ECF628F5D687000D7382 /* RealmStorageProtocol.swift in Sources */,
-				00B3ECDB28F5B664000D7382 /* PeopleVC+.swift in Sources */,
+				00B3ECDB28F5B664000D7382 /* PeopleVC+Setup.swift in Sources */,
 				00B3ECDD28F5B70E000D7382 /* ScreenSaverVC+.swift in Sources */,
+				00CF8B8F28F6DD6500C7FF88 /* GroupsVC+Realm.swift in Sources */,
 				00B3ECBC28EDC29A000D7382 /* Login.swift in Sources */,
 				00B3ECF428F5D65C000D7382 /* RealmStorage.swift in Sources */,
+				00CF8B7628F6BED700C7FF88 /* PeopleVC+Realm.swift in Sources */,
 				00B3ECDF28F5D1C9000D7382 /* PeopleFromJson.swift in Sources */,
 				00B3ECD228F04D00000D7382 /* TabBarController.swift in Sources */,
 				00B3ECB828EDC29A000D7382 /* AppDelegate.swift in Sources */,
+				00CF8B7F28F6D6A300C7FF88 /* GroupsViewController.swift in Sources */,
+				00CF8B8728F6D82700C7FF88 /* GroupsRealm.swift in Sources */,
 				00B3ECD728F58239000D7382 /* CellForPeopleAndGroups.swift in Sources */,
 				00B3ECF128F5D61D000D7382 /* NetworkerProtocol.swift in Sources */,
+				00CF8B8B28F6D8EB00C7FF88 /* GroupsGateway.swift in Sources */,
+				00CF8B8D28F6DD5600C7FF88 /* GroupsVC+Setup.swift in Sources */,
 				00B3ECBA28EDC29A000D7382 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

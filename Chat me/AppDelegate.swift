@@ -14,7 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        setupUITabBar()
+
 
         print("file path")
         print(Realm.Configuration.defaultConfiguration.fileURL)
@@ -34,6 +35,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the user discards a scene session.
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+    }
+
+    func setupUITabBar() {
+        UITabBar.appearance().barTintColor = .black
+        UITabBar.appearance().tintColor = #colorLiteral(red: 0, green: 0.9517167211, blue: 1, alpha: 1)
+        UITabBar.appearance().unselectedItemTintColor = #colorLiteral(red: 0, green: 0.2079703808, blue: 1, alpha: 1)
+//        UITabBar.appearance().items?[0].image = UIImage(systemName: "person.2")
+        
     }
 
 
