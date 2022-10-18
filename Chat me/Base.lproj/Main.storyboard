@@ -71,9 +71,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
+                        <segue destination="Ujg-7L-WFa" kind="relationship" relationship="viewControllers" id="ltY-cc-1ds"/>
                         <segue destination="y3z-lu-IsT" kind="relationship" relationship="viewControllers" id="OgD-aG-hvu"/>
                         <segue destination="Naz-hG-pRT" kind="relationship" relationship="viewControllers" id="un8-l2-fD0"/>
-                        <segue destination="Ujg-7L-WFa" kind="relationship" relationship="viewControllers" id="ltY-cc-1ds"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qmB-l5-W2D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

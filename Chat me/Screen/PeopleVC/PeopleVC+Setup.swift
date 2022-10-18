@@ -23,6 +23,7 @@ extension PeopleViewController {
         let height = self.view.bounds.height
         peopleTableView.frame = CGRect(x: 0, y: 0, width: width, height: height)
         self.view.addSubview(peopleTableView)
+
         peopleTableView.dataSource = self
         peopleTableView.delegate = self
 
